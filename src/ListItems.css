@@ -1,0 +1,47 @@
+.list {
+    background-color: black;
+    width: 25rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+.list p {
+    padding: 15px 15px;
+    position: relative;
+}
+
+.list p span {
+    position: absolute;
+    right: 11px;
+    bottom: 10px;
+    top: 11px;
+}
+
+.faicons {
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.list p input {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.1rem;
+    background-color: black;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.list p input:focus {
+    outline: none;
+}
+
+@media (max-width: 925px) {
+    .list {
+        min-height: 5vh;
+        width: 100%;
+    }
+
+}

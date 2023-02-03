@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  color: azure;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.App {
+  background-color: #151515;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  width: 25rem;
+  height: auto;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 8px 0 rgba(115, 225, 247, 1);
+}
+
+.App:hover {
+  box-shadow: 0 8px 16px 0 rgba(115, 225, 247, 1);
+}
+
+.App form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.App form input {
+  padding: 10px;
+  margin: 1rem 0;
+  background: black;
+  color: #fff;
+  text-transform: none;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.App form button {
+  padding: 0.7rem 1.5rem;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem 0;
+  font-size: 1.2rem;
+  border-radius: 5rem;
+}
+
+.App form button:hover {
+  padding: 0.7rem 1.5rem;
+  background: rgb(32, 68, 70);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem 0;
+  font-size: 1.2rem;
+  border-radius: 5rem;
+}
+
+@media (max-width: 925px) {
+  .App {
+    width: 70%;
+  }
+
+  .App form {
+    flex-direction: column;
+  }
+}
